@@ -1,0 +1,25 @@
+# --- Core Deep Learning & LLM (Toutes les phases) ---
+torch>=2.0.0
+transformers==4.48.3
+datasets
+peft
+accelerate
+
+# --- Phase 1 : Fine-Tuning Centralisé & Évaluation (Cloud / GPU) ---
+trl
+bitsandbytes
+unsloth_zoo
+# Pour installer Unsloth sur GPU : pip install "unsloth[kaggle-new] @ git+https://github.com/unslothai/unsloth.git"
+
+# --- Phase 2 : Simulation d'Apprentissage Fédéré (Cloud) ---
+flwr[simulation]
+ray
+
+# --- Métriques d'Évaluation & Visualisation (Phases 1 & 2) ---
+evaluate
+codebleu
+scikit-learn
+numpy
+matplotlib
+seaborn
+tqdm
