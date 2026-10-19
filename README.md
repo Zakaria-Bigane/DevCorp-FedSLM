@@ -109,8 +109,8 @@ pip install transformers datasets peft flwr
 
 ## 📄 Documentation
 
-* 📘 **[Rapport Technique Complet (PDF)](docs/Rapport_Federated_SLM_INPT.pdf)**
-* 📊 **[Présentation du Projet (Slides PDF)](docs/Presentation_Federated_SLM.pdf)**
+* 📘 **[Rapport Technique Complet (PDF)](Docs/Rapport_Federated_SLM_INPT.pdf)**
+* 📊 **[Présentation du Projet (Slides PDF)](Docs/Presentation_Federated_SLM.pdf)**
 
 ---
 
